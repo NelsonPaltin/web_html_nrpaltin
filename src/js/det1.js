@@ -1,15 +1,17 @@
 import { senderos } from "./senderos.js";
+
+console.log("det1")
+console.log(senderos);
+
+/*
 import L from "leaflet";
 import 'leaflet/dist/leaflet.css';
-
-
-import img5s from "../img/g5.jpeg";
-import img6s from "../img/g6.jpeg";
-import img7s from "../img/g7.jpeg";
-import img8s from "../img/g8.jpeg";
+*/
 
 const sendero = senderos.find(x => x.id === 1);
-//console.log(sendero.parr1);
+console.log(sendero);
+
+
 
 // Nombre del sendero
 document.querySelector("#det-nombre").textContent = sendero.nombre;
@@ -33,8 +35,12 @@ document.querySelector("#det-img-2").alt = "Imagen representatica de " + sendero
 document.querySelector("#det-img-3").src = sendero.img_g3;
 document.querySelector("#det-img-3").alt = "Imagen representatica de " + sendero.nombre;
 
+
+/*
 // Video
 document.querySelector("#det-video").src = sendero.video;
+
+
 
 // Crear el mapa y establecer coordenadas de visualización
 const map = L.map("map").setView([sendero.latitud_inicio, sendero.longitud_inicio], 14);
@@ -46,3 +52,4 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // Añadir un marker/bandera de posición al mapa
 L.marker([sendero.latitud_inicio, sendero.longitud_inicio]).addTo(map);
+*/
