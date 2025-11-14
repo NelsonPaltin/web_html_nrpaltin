@@ -15,7 +15,7 @@ export const senderos = [
     direccion: "Sector Cajanuma",
     latitud_inicio:"-4.084500",
     longitud_inicio:"-79.205444",
-    img:img_05,
+    img:img_04,
     page:"../det1.html",
     parr1:"El Sendero Ecológico Ruta de la Cascarilla Caxarumi es una experiencia única que combina biodiversidad y tradición en el hermoso Parque Nacional Podocarpus de Loja, Ecuador. Este recorrido de 10 kilómetros te adentra en un paisaje lleno de historia y maravillas naturales, donde la cultura y la ecología se entrelazan en cada paso. Desde el impresionante bosque de niebla hasta la cascada La Chismosa, con 25 metros de altura, esta ruta es el destino ideal para quienes buscan conectar profundamente con la naturaleza.",
     parr2:"En la ruta puedes experiementar una sensación visual extraornidinaria en cada paso. En algunos tramos puedes encontrar vegetación autóctona de la zona, como los bosques de bambú y cedro, que aportan una frescura y sombras importantes para especies nativas como las orquídeas, bromelias, aves y mamíferos. Existe una cascada de nombre “La Chismosa”, que es uno de los puntos muy importantes para el turismo perfecta para sentir momentos inolvidables por la belleza y sonido del agua.",
