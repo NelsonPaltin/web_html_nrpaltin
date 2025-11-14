@@ -4,6 +4,11 @@ import { senderos } from "./senderos.js";
 const contenedor = document.getElementById("senderos");
 
 
+let img = document.createElement('img');
+img.src = new URL('../img/g4.jpeg', import.meta.url);
+document.body.appendChild(img);
+
+
 
 senderos.forEach(lista => {
   const card = document.createElement("div");
