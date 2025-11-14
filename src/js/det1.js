@@ -8,7 +8,7 @@ import img6s from "../img/g6.jpeg";
 import img7s from "../img/g7.jpeg";
 import img8s from "../img/g8.jpeg";
 
-const sendero = senderos.find(x => x.id === 2);
+const sendero = senderos.find(x => x.id === 1);
 //console.log(sendero.parr1);
 
 // Nombre del sendero
