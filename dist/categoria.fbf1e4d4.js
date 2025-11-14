@@ -8,6 +8,8 @@ function e(e){return new URL(o+(e=i.i?.[e]||e),import.meta.url).toString()}var a
     <p class = "info-distancia"><Strong>Distancia:</strong> ${e.km} km</p>
     <p>${e.parr1}..</p>
     <p class = "caja-ver-mas"><a href ="${e.page}" class = "enlace-ver-mas">...ver m\xe1s</a></p>
+
+     <img src="${{}}" alt="Fotograf\xeda de prueba">
     
   `,d.appendChild(a)}),i("9CaPv");
-//# sourceMappingURL=categoria.ecd4baa2.js.map
+//# sourceMappingURL=categoria.fbf1e4d4.js.map

@@ -9,6 +9,16 @@ img.src = new URL('../img/g4.jpeg', import.meta.url);
 document.body.appendChild(img);
 
 
+import img_01 from "../img/g1.jpeg";
+import img_02 from "../img/g2.jpeg";
+import img_03 from "../img/g3.jpeg";
+import img_04 from "../img/g4.jpeg";
+import img_05 from "../img/g5.jpeg";
+import img_06 from "../img/g6.jpeg";
+import img_07 from "../img/g7.jpeg";
+import img_08 from "../img/g8.jpeg";
+
+
 
 senderos.forEach(lista => {
   const card = document.createElement("div");
@@ -26,6 +36,8 @@ senderos.forEach(lista => {
     <p class = "info-distancia"><Strong>Distancia:</strong> ${lista.km} km</p>
     <p>${lista.parr1}..</p>
     <p class = "caja-ver-mas"><a href ="${lista.page}" class = "enlace-ver-mas">...ver más</a></p>
+
+     <img src="${img_01}" alt="Fotografía de prueba">
     
   `;
 
