@@ -2,6 +2,11 @@ import { senderos } from "./senderos.js";
 import L from "leaflet";
 import 'leaflet/dist/leaflet.css';
 
+import img1 from "../img/g1.jpeg";
+import img2 from "../img/g2.jpeg";
+import img3 from "../img/g3.jpeg";
+import img4 from "../img/g4.jpeg";
+
 const sendero = senderos.find(x => x.id === 1);
 //console.log(sendero.parr1);
 

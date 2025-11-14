@@ -1,5 +1,6 @@
 import { senderos } from "./senderos.js";
 
+
 const contenedor = document.getElementById("senderos");
 
 senderos.forEach(lista => {
