@@ -7,6 +7,18 @@ const img_06 = new URL("../img/g6.jpeg", import.meta.url).href;
 const img_07 = new URL("../img/g7.jpeg", import.meta.url).href;
 const img_08 = new URL("../img/g8.jpeg", import.meta.url).href;
 
+const imageUrl = new URL(
+  '../img/g4.jpeg?as=webp&width=250',
+  import.meta.url
+);
+
+/*
+
+let img = document.createElement('img');
+img.src = new URL('hero.jpg', import.meta.url);
+document.body.appendChild(img);
+*/ 
+
 const dirImt = "img/g4.jpeg";
 
 export const senderos = [
@@ -17,7 +29,7 @@ export const senderos = [
     direccion: "Sector Cajanuma",
     latitud_inicio:"-4.084500",
     longitud_inicio:"-79.205444",
-    img:img_04,
+    img:imageUrl,
     page:"../det1.html",
     parr1:"El Sendero Ecológico Ruta de la Cascarilla Caxarumi es una experiencia única que combina biodiversidad y tradición en el hermoso Parque Nacional Podocarpus de Loja, Ecuador. Este recorrido de 10 kilómetros te adentra en un paisaje lleno de historia y maravillas naturales, donde la cultura y la ecología se entrelazan en cada paso. Desde el impresionante bosque de niebla hasta la cascada La Chismosa, con 25 metros de altura, esta ruta es el destino ideal para quienes buscan conectar profundamente con la naturaleza.",
     parr2:"En la ruta puedes experiementar una sensación visual extraornidinaria en cada paso. En algunos tramos puedes encontrar vegetación autóctona de la zona, como los bosques de bambú y cedro, que aportan una frescura y sombras importantes para especies nativas como las orquídeas, bromelias, aves y mamíferos. Existe una cascada de nombre “La Chismosa”, que es uno de los puntos muy importantes para el turismo perfecta para sentir momentos inolvidables por la belleza y sonido del agua.",
@@ -34,7 +46,7 @@ export const senderos = [
     direccion: "Sector Malacatos, cerca del puente",
     latitud_inicio:"-4.219861",
     longitud_inicio:"-79.256500",
-    img: img_04,
+    img: imageUrl,
     page:"../det2.html",
     parr1:"Malacatos es un lugar privilegiado por tener un clima cálido y gente acogedora. Podrás disfrutar de hermosos paisajes junto al río “Campana” con tu familia o amigos; este espacio está destinado para ser transitado a pie, con bicicleta y equinos. El recorrido total es de 4 km; puedes empezar desde la entrada del barrio Landangui o desde la conocida playa de Malacatos.",
     parr2:"En el recorrido podrás ver múltiples cultivos ecológicos, como la caña de azúcar, muy popular por la realización de la panela en las múltiples fábricas que existen en Malacatos. No hay que olvidar los paisajes y lugares destinados para bañarse, sobre todo en época de carnaval, cuando la cantidad de visitantes supera todas las expectativas. Si tienes suerte, podrás observar algunas aves como la chilala, canario coronado, ardilla de nuca blanca o la tórtola orejuda.",
