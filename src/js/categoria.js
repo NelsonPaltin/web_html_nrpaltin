@@ -4,7 +4,7 @@ const g1 = new URL('../img/g1.jpeg', import.meta.url);
 
 
 const img = document.createElement('img');
-img.src = g1;
+img.src = g1.href;
 img.alt = "Mi imagen";
 
 document.getElementById('img-gen').appendChild(img);
