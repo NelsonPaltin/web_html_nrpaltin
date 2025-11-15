@@ -1,25 +1,11 @@
-const img_01 = new URL("../img/g1.jpeg", import.meta.url).href;
-const img_02 = new URL("../img/g2.jpeg", import.meta.url).href;
-const img_03 = new URL("../img/g3.jpeg", import.meta.url).href;
-const img_04 = new URL("../img/g4.jpeg", import.meta.url).href;
-const img_05 = new URL("../img/g5.jpeg", import.meta.url).href;
-const img_06 = new URL("../img/g6.jpeg", import.meta.url).href;
-const img_07 = new URL("../img/g7.jpeg", import.meta.url).href;
-const img_08 = new URL("../img/g8.jpeg", import.meta.url).href;
-
-const imageUrl = new URL(
-  '../img/g4.jpeg?as=webp&width=250',
-  import.meta.url
-);
-
-/*
-
-let img = document.createElement('img');
-img.src = new URL('hero.jpg', import.meta.url);
-document.body.appendChild(img);
-*/ 
-
-const dirImt = "img/g4.jpeg";
+import g1 from "../img/g1.jpeg";
+import g2 from "../img/g2.jpeg";
+import g3 from "../img/g3.jpeg";
+import g4 from "../img/g4.jpeg";
+import g5 from "../img/g5.jpeg";
+import g6 from "../img/g6.jpeg";
+import g7 from "../img/g7.jpeg";
+import g8 from "../img/g8.jpeg";
 
 export const senderos = [
   {
@@ -29,14 +15,14 @@ export const senderos = [
     direccion: "Sector Cajanuma",
     latitud_inicio:"-4.084500",
     longitud_inicio:"-79.205444",
-    img:"img/g4.jpeg",
+    img: g1,
     page:"../det1.html",
     parr1:"El Sendero Ecológico Ruta de la Cascarilla Caxarumi es una experiencia única que combina biodiversidad y tradición en el hermoso Parque Nacional Podocarpus de Loja, Ecuador. Este recorrido de 10 kilómetros te adentra en un paisaje lleno de historia y maravillas naturales, donde la cultura y la ecología se entrelazan en cada paso. Desde el impresionante bosque de niebla hasta la cascada La Chismosa, con 25 metros de altura, esta ruta es el destino ideal para quienes buscan conectar profundamente con la naturaleza.",
     parr2:"En la ruta puedes experiementar una sensación visual extraornidinaria en cada paso. En algunos tramos puedes encontrar vegetación autóctona de la zona, como los bosques de bambú y cedro, que aportan una frescura y sombras importantes para especies nativas como las orquídeas, bromelias, aves y mamíferos. Existe una cascada de nombre “La Chismosa”, que es uno de los puntos muy importantes para el turismo perfecta para sentir momentos inolvidables por la belleza y sonido del agua.",
     parr3:"También existe “La cascarilla”, un emblemático árbol para los pobladores, muy valorado por su corteza desde los tiempos coloniales, es muy reconocida por las propiedades medicinales. En el trayecto de este sendero, aprenderás sobre la historia de la cascarilla y la importancia en la economía local y su uso tradicional en la medicina. Existen guías locales expertos que te ayudarán a descubrir las prácticas ancestrales de la comunidad y el compromiso que tienen con la conservación.",
-    img_g1: img_01,
-    img_g2: img_02,
-    img_g3: img_03,
+    img_g1: g2,
+    img_g2: g3,
+    img_g3: g4,
     video:"https://www.youtube.com/embed/hLrFfbwPPP8?si=6f2fKKYQJNR7BbDD"
 },
   {
@@ -46,14 +32,14 @@ export const senderos = [
     direccion: "Sector Malacatos, cerca del puente",
     latitud_inicio:"-4.219861",
     longitud_inicio:"-79.256500",
-    img: "img/g4.jpeg",
+    img: g5,
     page:"../det2.html",
     parr1:"Malacatos es un lugar privilegiado por tener un clima cálido y gente acogedora. Podrás disfrutar de hermosos paisajes junto al río “Campana” con tu familia o amigos; este espacio está destinado para ser transitado a pie, con bicicleta y equinos. El recorrido total es de 4 km; puedes empezar desde la entrada del barrio Landangui o desde la conocida playa de Malacatos.",
     parr2:"En el recorrido podrás ver múltiples cultivos ecológicos, como la caña de azúcar, muy popular por la realización de la panela en las múltiples fábricas que existen en Malacatos. No hay que olvidar los paisajes y lugares destinados para bañarse, sobre todo en época de carnaval, cuando la cantidad de visitantes supera todas las expectativas. Si tienes suerte, podrás observar algunas aves como la chilala, canario coronado, ardilla de nuca blanca o la tórtola orejuda.",
     parr3:"Recuerda que puedes acudir en cualquier época del año; el mantenimiento es constante para ofrecer las mejores condiciones para realizar un senderismo seguro y cómodo. Gracias a la popularidad del lugar podemos seguir mejorando y aportando cada vez más a la ciudadanía; juntos podemos hacerlo, respetemos y cuidemos la naturaleza.",
-    img_g1: img_06,
-    img_g2: img_07,
-    img_g3: img_08,
+    img_g1: g6,
+    img_g2: g7,
+    img_g3: g8,
     video:"https://www.youtube.com/embed/8xDC7bsid6Y?si=_P4kRTz0-OwFmNx2"
     
   },
