@@ -7,6 +7,8 @@ import g6 from "../img/g6.jpeg";
 import g7 from "../img/g7.jpeg";
 import g8 from "../img/g8.jpeg";
 
+console.log(g1)
+
 export const senderos = [
   {
     id: 1,
