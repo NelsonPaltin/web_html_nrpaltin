@@ -7,6 +7,9 @@ const img = document.createElement('img');
 img.src = g1.href;
 img.alt = "Mi imagen";
 
+console.log(g1);
+console.log(g1.href);
+
 document.getElementById('img-gen').appendChild(img);
 
 const contenedor = document.getElementById("senderos");
