@@ -1,3 +1,4 @@
+/*
 import { senderos } from "./senderos.js";
 
 const g1 = new URL('../img/g1.jpeg', import.meta.url);
@@ -34,3 +35,4 @@ senderos.forEach(lista => {
   contenedor.appendChild(card);
 
 });
+*/
